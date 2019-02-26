@@ -1,0 +1,12 @@
+.element-header_color {
+    background-color: #7fffd429;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }

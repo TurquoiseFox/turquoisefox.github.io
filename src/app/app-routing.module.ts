@@ -4,7 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { TechSpecsComponent } from './tech-specs/tech-specs.component';
 import { ContactComponent } from './contact/contact.component';
-import { FeedbackComponent } from './feedback/feedback.component';
+import { EducationComponent } from './education/education.component';
+import { ReviewComponent } from './review/review.component';
 
 const routes: Routes = [
   {
@@ -23,13 +24,21 @@ const routes: Routes = [
     data: { title: 'Contact'}
   },
   {
-    path: 'feedback',
-    component: FeedbackComponent,
-    data: { title: 'Feedback'}
+    path: 'review',
+    component: ReviewComponent,
+    data: { title: 'Review'}
+  },
+  {
+    path: 'education',
+    component: EducationComponent,
+    data: { title: 'Education'}
+  },
+  {
+    path: '',
+    redirectTo: '/about-me',
+    pathMatch: 'full'
   }
-
 ];
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -8,7 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { TechSpecsComponent } from './tech-specs/tech-specs.component';
 import { ContactComponent } from './contact/contact.component';
-import { FeedbackComponent } from './feedback/feedback.component';
+import { EducationComponent } from './education/education.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
     AboutMeComponent,
     TechSpecsComponent,
     ContactComponent,
-    FeedbackComponent
+    EducationComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
