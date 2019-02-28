@@ -1,12 +1,11 @@
 .element-header_color {
-    background-color: #7fffd429;
+    background-color: unset;
 }
 
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
+.text-lgreen {
+    color:#4ab09a;
+}
+
+.text-dgreen {
+    color: #457268;
+}

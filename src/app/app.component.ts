@@ -8,5 +8,5 @@ import { AboutMeComponent } from '../app/about-me/about-me.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Sylvia Poelgeest - Turquoise Fox';
+  title = "I'm Sylvia.";
 }

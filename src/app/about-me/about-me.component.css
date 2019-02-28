@@ -1,21 +1,20 @@
-.element-header_color {
+/* .element-header_color {
+    background-color: white;
     background-color: #7fffd429;
-}
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(20,140,96,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(20,140,96,1);
+    box-shadow: 10px 10px 5px 0px rgba(20,140,96,1);
+} */
 
 .text-large {
     font-size: 30px;
+    color:#4ab09a;
 }
 
-.clickable-text_color {
-    color: #50a291;
+.text-lgreen {
+    color:#4ab09a;
 }
 
-.footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
+.text-dgreen {
+    color: #457268;
+}

@@ -10,6 +10,7 @@ import { TechSpecsComponent } from './tech-specs/tech-specs.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { ReviewComponent } from './review/review.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReviewComponent } from './review/review.component';
     TechSpecsComponent,
     ContactComponent,
     EducationComponent,
-    ReviewComponent
+    ReviewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

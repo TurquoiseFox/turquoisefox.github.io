@@ -1,16 +1,25 @@
-<div class="jumbotron element-header_color">
-  <p class="text-center text-large">Education/courses</p>
-</div>
-
 <div id="accordion">
+    <div class="card">
+        <div class="card-header">
+          <button class="btn card-link text-lgreen" data-toggle="collapse" href="#ongoing">
+            Ongoing Training
+          </button>
+        </div>
+        <div id="ongoing" class="collapse show" data-parent="#accordion">
+          <div class="card-body text-dgreen">
+            • Harvard, CS50x<br />
+            • Pluralsight, ITIL® Foundation: Core Concepts
+          </div>
+        </div>
+      </div>
   <div class="card">
-    <div class="card-header element-header_color">
-      <button class="btn card-link clickable-text_color" data-toggle="collapse" href="#frontEnd">
+    <div class="card-header">
+      <button class="btn card-link text-lgreen" data-toggle="collapse" href="#frontEnd">
         Front End Development
       </button>
     </div>
-    <div id="frontEnd" class="collapse show" data-parent="#accordion">
-      <div class="card-body">
+    <div id="frontEnd" class="collapse" data-parent="#accordion">
+      <div class="card-body text-dgreen">
         • Pluralsight, Angular: The Big Picture<br />
         • Codecademy, jQuery<br />
         • Codecademy, JavaScript<br />
@@ -19,14 +28,13 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header element-header_color">
-      <button class="btn collapsed card-link clickable-text_color" data-toggle="collapse" href="#backEnd">
+    <div class="card-header">
+      <button class="btn collapsed card-link text-lgreen" data-toggle="collapse" href="#backEnd">
         Back End Development
       </button>
     </div>
     <div id="backEnd" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        • Harvard, CS50x<br />
+      <div class="card-body text-dgreen">
         • Pluralsight, Play by Play: Understanding API Functionality Through Swagger<br />
         • Microsoft Virtual Academy, SQL Fundamentals<br />
         • Jamie King, C# Threading
@@ -34,13 +42,13 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header element-header_color">
-      <button class="btn collapsed card-link clickable-text_color" data-toggle="collapse" href="#security">
+    <div class="card-header">
+      <button class="btn collapsed card-link text-lgreen" data-toggle="collapse" href="#security">
         Security
       </button>
     </div>
     <div id="security" class="collapse" data-parent="#accordion">
-      <div class="card-body">
+      <div class="card-body text-dgreen">
         • Pluralsight, Cyber Security Awareness: Malware Explained<br />
         • Pluralsight, Building Your Cyber Security Vocabulary<br />
         • Pluralsight, Cyber Security Awareness: The Importance of Identity Protection<br />
@@ -53,25 +61,25 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header element-header_color">
-      <button class="btn collapsed card-link clickable-text_color" data-toggle="collapse" href="#designThinking">
+    <div class="card-header">
+      <button class="btn collapsed card-link text-lgreen" data-toggle="collapse" href="#designThinking">
         Design Thinking
       </button>
     </div>
     <div id="designThinking" class="collapse" data-parent="#accordion">
-      <div class="card-body">
+      <div class="card-body text-dgreen">
         • Pluralsight, Jonathan Mills: "Practical Design Patterns in JavaScript"
       </div>
     </div>
   </div>
   <div class="card">
-    <div class="card-header element-header_color">
-      <button class="btn collapsed card-link clickable-text_color" data-toggle="collapse" href="#blogs">
+    <div class="card-header">
+      <button class="btn collapsed card-link text-lgreen" data-toggle="collapse" href="#blogs">
         Blogs I like
       </button>
     </div>
     <div id="blogs" class="collapse" data-parent="#accordion">
-      <div class="card-body">
+      <div class="card-body text-dgreen">
         • Medium, Aj Justo: "The Knowns And Unknowns Framework for Design Thinking."<br />
         • Medium: Pete Mertz: "What the hell is Zone.js and why is it in my Angular 2?"<br />
         • Medium: Nate Lapinski: "The Three Pillars of Angular Routing. Angular Router Series Introduction."<br />
@@ -80,5 +88,3 @@
     </div>
   </div>
 </div>
-
-<div class="footer">Proudly made and presented to you by Turquoise Fox © 2019</div>
