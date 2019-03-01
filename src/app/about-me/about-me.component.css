@@ -1,3 +1,5 @@
+@import '../../styles.css';
+
 /* .element-header_color {
     background-color: white;
     background-color: #7fffd429;
@@ -5,16 +7,3 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(20,140,96,1);
     box-shadow: 10px 10px 5px 0px rgba(20,140,96,1);
 } */
-
-.text-large {
-    font-size: 30px;
-    color:#4ab09a;
-}
-
-.text-lgreen {
-    color:#4ab09a;
-}
-
-.text-dgreen {
-    color: #457268;
-}

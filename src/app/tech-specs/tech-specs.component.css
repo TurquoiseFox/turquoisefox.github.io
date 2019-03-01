@@ -1,11 +1,1 @@
-.element-header_color {
-    background-color: unset;
-}
-
-.text-lgreen {
-    color:#4ab09a;
-}
-
-.text-dgreen {
-    color: #457268;
-}
+@import '../../styles.css';
