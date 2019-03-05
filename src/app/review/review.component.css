@@ -1,1 +1,5 @@
 @import '../../styles.css';
+
+.card-header {
+    text-align: center;
+}

@@ -1,1 +1,23 @@
 @import '../../styles.css';
+
+button:focus,
+button:active,
+.btn:focus,
+.btn.focus {
+    outline: unset;
+}
+
+.hamburger {
+    border: none;
+}
+
+.navbar {
+    padding-right: 0;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=457268');
+    /* background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=457268'); */
+    width: 2.5em;
+    height: 2.5em;
+}
